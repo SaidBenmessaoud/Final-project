@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My HTML Assignment</title>
+</head>
+<body>
+  <header>
+    <h1>Said Benmessaoud</h1>
+  </header>
 
+  <article>
+    <h2>About Me</h2>
+    <p>I am a person who is constantly seeking to broaden my horizons and expand my knowledge. I have a positive and optimistic outlook on life, and I always strive to find the silver lining in any situation. I am a very imaginative individual who enjoys thinking outside the box and coming up with innovative solutions to problems. I am eager to see where my path takes me and I'm always open to new and exciting experiences. I never lose sight of my goals, and I'm a determined and hardworking person who is confident that I'll achieve all of my aspirations.</p>
+  </article>
+
+  <blockquote>
+    <p><em>"Let your hopes, not your hurts, shape your future"</em> - Robert H. Schuller</p>
+  </blockquote>
+
+  <footer>
+    <p>&copy; 2023 Said Benmessaoud</p>
+  </footer>
+</body>
+</html>
