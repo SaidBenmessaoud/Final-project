@@ -1,0 +1,597 @@
+/* Mobile-first styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html { scroll-behavior: smooth;}
+
+p {
+    font-size: 0.7rem;
+}
+
+.big-title{
+    margin-bottom: 1rem;
+    font-size: xx-large;
+}
+
+.regular-title{
+    font-size: x-large;
+}
+
+main button{
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header Styling */
+
+header{
+    background-color: #222;
+    color: #c78c06;
+    padding: 1rem;
+}
+
+header a {
+    all: unset;
+}
+
+header .logo-container {
+    width: 100%;
+    background-color: #c78c06;
+}
+
+header .logo {
+    width: 5rem;
+}
+
+header ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header li {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+header li:hover{
+    background-color: #c78c06;
+    color: #222;
+}
+
+.nav-search {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-search input{
+    width: 100%;
+    height: 2rem;
+    padding: 0 0.4rem;
+}
+
+.nav-search button {
+    background-color: #222;
+    color: #c78c06;
+    border: #c78c06 1px solid;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.nav-search button:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+.nav-search span {
+    transform: translate(-5px,2px);
+}
+
+
+/* Banner Styling */
+
+.banner-div{
+    background-image: url("../images/main-banner.jpg");
+    padding: 3rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.welcome-div{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2.5rem 1rem 1rem 1rem;
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.welcome-div h1 {
+    color: white;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+.connect-button {
+    background-color: #c78c06;
+    color: #222;
+    padding: 1.5rem 1.2rem;
+    font-size: medium;
+    width: max-content;
+}
+
+.connect-button:hover {
+    background-color: #222;
+    color: #c78c06;
+}
+
+.material-symbols-outlined {
+    transform: scale(2); 
+    padding-left: 0.5rem;
+}
+
+/* About Us Styling */
+.about-us {
+    background-color: #ffe6ac;
+    padding: 1rem 1rem ;
+}
+
+.about-us .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us .container img {
+    width: 100%;
+}
+
+.about-us-text {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Our Services Styling  */
+.our-services-div {
+    padding: 2rem 1rem 0 1rem;
+}
+
+.our-services-div .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-div {
+    width: 100%;
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+}
+
+.service-div img {
+    width: 100%;
+}
+
+.service-div-intern {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service-div-intern h3{
+    font-size: 1.5rem;
+}
+
+.services-button {
+    background-color: #222;
+    color: white;
+    padding: 1.4rem 1.2rem;
+    width: max-content;
+    box-sizing: border-box;
+}
+
+.services-button:hover {
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* Our Vision Styling  */
+.our-vision-div {
+    background-image: url("../images/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white; 
+    padding: 1.5rem 0 1rem 0;
+}
+
+.our-vision-div .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.our-vision-div .container h3 {
+    font-size: 1.7rem;
+}
+
+.our-vision-div .container button {
+    background: rgba(26, 24, 24, 0.75);
+    color: white;
+    padding: 1.4rem 1.6rem;
+    width: max-content;
+    box-sizing: border-box;
+    border: 1px solid #c78c06;
+}
+
+.our-vision-div .container button:hover {
+    background: #c78c06;
+    color: white;
+}
+
+/* Our Team Styling  */
+.our-team-div {
+    padding: 2rem 1rem 0 1rem;
+}
+
+.team-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-div img{
+    width: 100%;
+}
+
+.person-team-div {
+    background-color: #ffe6ac;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.person-intern-div{
+    padding: 1rem;
+}
+
+.person-intern-div h3{
+    font-size: 2rem;
+}
+
+.person-intern-div h4{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.person-intern-div hr{
+    margin-top: 0.2rem;
+    border: 1px solid #c78c06;
+}
+
+.person-intern-div p{
+    padding: 1.2rem 0 1.5rem 0;
+}
+
+/* Contact Styling  */
+.contact-us-div{
+    padding: 2rem 1rem 0 1rem;
+}
+
+.contact-us-div input{
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+    font-size: medium;
+}
+
+.contact-us-div textarea{
+    width: 100%;
+    height: 6rem;
+    padding: 0.2rem 0.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.7rem;
+}
+
+.send-message-div{
+    margin-top: 1rem;
+}
+
+.send-message-div form{
+    margin-top: 0.5rem;
+}
+
+.contact-us-div .send-button{
+    all: unset;
+    width: fit-content;
+    background-color: #222;
+    color: #c78c06;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+/* Hours of operation Styling  */
+.operation-div{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    margin: 0.7rem 0 0.5rem 0;
+    width:100%;
+    border:1px solid #222;
+    border-collapse:collapse;
+    font-size: small;
+}
+
+table th {
+    border:1px solid #222;
+    padding:1rem;
+    background: #ffe6ac;
+    color: #000000;
+    font-weight: 500;
+}
+
+table td {
+    border:1px solid #222;
+    padding:1rem;
+    background: white;
+    color: black
+}
+
+
+/* Location Styling  */
+.location-div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.location-div iframe {
+    width: 100%;
+    padding-top: 0.5rem;
+}
+
+
+/* Footer Styling  */
+footer{
+    background-color: #222;
+    color: #c78c06;
+    padding: 2rem 1rem 1.3rem 1rem;
+    font-size: small;
+}
+
+footer p{
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color:#c78c06;
+}
+
+
+
+
+/* Media query for screen size of 760px and above */
+@media screen and (min-width: 760px) {
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .big-title {
+        font-size: 3.2rem;
+    }
+
+    .regular-title{
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+     /* Banner for 760p or above*/
+    .welcome-div h1 {
+        color: white;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .connect-button {
+        padding: 2rem 2rem;
+        font-size: x-large;
+    }
+
+    .material-symbols-outlined {
+        transform: scale(2.5); 
+    }
+
+    /* About Us for 760p or above*/
+    .about-us .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .about-us .container img {
+        width: 50%;
+    }
+    
+    .about-us-text {
+        margin: auto 0 auto 1rem;
+    }
+
+    /* Services for 760p or above*/
+    .service-div {
+        width: calc(50% - 10px); /* 2 services for the first line */
+    }
+
+    .service-div:nth-child(n + 3) {
+        width: calc(33.33% - 10px); /* Then 3 services for the second line */
+    }
+
+    .service-div-intern h3{
+        font-size: 2.2rem;
+        padding: 1rem 0;
+    }    
+
+    .services-button {
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 1.4rem;
+        padding: 2rem 1.2rem;
+    }
+
+    /* Our Vision */
+
+    .our-vision-div {
+        padding-top: 2.2rem;
+    }
+
+    .our-vision-div .container button {
+        padding: 2rem 1.6rem;
+    }
+
+    .our-vision-div .container h3 {
+        font-size: 2.3rem;
+    }
+
+    /* Our Team for 760p or above*/
+    .team-div img{
+        width: 50%;
+    }
+
+    .person-team-div {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0%;
+    }
+
+    /* Reorder info to appear after the image for even elements */
+    .person-team-div:nth-child(even) .person-intern-div {
+        order: 1; 
+    }
+
+    .person-team-div:nth-child(even) img {
+        order: 2;
+    }
+
+    .contact-us-div .send-button{
+        font-size: x-large;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .send-message-div { 
+        grid-area: send-message-div; 
+    }
+
+    .operation-div {
+        grid-area: operation-div; 
+    }
+
+    .location-div { 
+        grid-area: location-div;
+    }
+
+    .contact-divs-container {
+        display: grid;
+        grid-template-columns: 2fr 2fr; 
+        grid-template-rows: max-content; 
+        gap: 0 1rem; 
+        grid-template-areas: 
+          "send-message-div location-div ."
+          "operation-div operation-div ."; 
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 8rem;
+    }
+
+    header .logo-container {
+        width: max-content;
+        background-color: #222;
+    }
+    
+    header .logo {
+        width: 6rem;
+    }
+    
+    header ul{
+        width: 90%;
+        list-style: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header li {
+        font-size: larger;
+    }
+    
+    header li:hover{
+        background-color: #c78c06;
+        color: #222;
+    }
+    
+    .nav-search {
+        padding-left: 1rem;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-search input {
+        font-size: larger;
+        height: 2.7rem;
+        padding: 1rem 0.5rem ;
+    }
+
+    .nav-search button {
+        height: 2.7rem;
+        width: 3rem;
+    }
+
+    header .material-symbols-outlined{
+        transform: scale(1.4);
+        transform: translateX(-0.3rem);
+    }
+
+    .nav-search-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-left:2rem ;
+    }
+
+}
